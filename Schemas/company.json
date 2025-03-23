@@ -1,0 +1,17 @@
+{
+    "@id":"urn:kharcha:onboarding#Entity",
+    "type":"urn:kharcha:onboarding#company",
+    "label":"Company",
+    "properties":{
+        "LegalName":{
+          "@id":"urn:kharcha:onboarding#LegalName",
+          "range":"xsd:string"
+        },
+        "TradingName":{
+         "@id":"urn:kharcha:onboarding#TradingName",
+          "range":"xsd:string"
+        }
+        
+    }
+
+}

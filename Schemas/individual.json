@@ -1,0 +1,32 @@
+{
+    "@id": "urn:kharcha:onboarding#Representative",
+    "type": "urn:kharcha:onboarding#individual",
+    "label": "Individual",
+    "properties": {
+        "FirstName": {
+            "@id": "urn:kharcha:onboarding#FirstName",
+            "range": "xsd:string"
+        },
+        "LastName": {
+            "@id": "urn:kharcha:onboarding#TradingName",
+            "range": "xsd:string"
+        },
+        "ubo_of": {
+            "@id": "urn:kharcha:onboarding#ubo_of",
+            "range": "urn:kharcha:onboarding#Entity"
+        },
+        "director_of": {
+            "@id": "urn:kharcha:onboarding#director_of",
+            "range": "urn:kharcha:onboarding#Entity"
+        },
+        "signatory_of": {
+            "@id": "urn:kharcha:onboarding#signatory_of",
+            "range": "urn:kharcha :onboarding#Entity"
+        },
+        "child_of":
+        {
+           "@id": "urn:kharcha:onboarding#child_of",
+            "range": "urn:kharcha :onboarding#Entity"
+        }
+    }
+}
